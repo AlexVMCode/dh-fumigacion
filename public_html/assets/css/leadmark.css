@@ -11247,6 +11247,16 @@ textarea.form-control {
   color: #000;
 }
 
+.navbar.custom-navbar.affix .nav-link.rounded {
+  color: #fff;
+  background-color: #e72b29;
+  border-color: #e6201d;
+}
+
+.navbar.custom-navbar.affix .nav-link.rounded:hover {
+  color: #fff;
+}
+
 .pagination .page-item {
   margin: 0 4px;
 }
@@ -11422,7 +11432,10 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  /* background: url(../imgs/header.jpg) no-repeat center center fixed; */
+  /* background: url(../imgs/header2.jpg) no-repeat center center fixed; */
+  /* background: url(../imgs/header1.jpg) no-repeat center center fixed; */
+  background: url(../imgs/header3.webp) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11688,7 +11701,7 @@ textarea.form-control {
 .portfolio-section .filters a.active {
   opacity: 1;
   border-radius: 100px;
-  background: #ff6e42;
+  background: #eb4d4b;
   color: #fff;
 }
 
